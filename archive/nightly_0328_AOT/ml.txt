@@ -1,0 +1,9 @@
+Currently Loaded Modulefiles:
+ 1) spack/linux-opensuse_leap15-x86_64(default) <aL>   6) hwloc/master-gcc-10.2.0-fbu4tbk <aL>    11) intel_gpu_env/platform_default <aL>                              
+ 2) libnl/3.3.0-gcc-10.2.0-h7m7thf <aL>                7) mpi/aurora_mpich/icc-sockets/51.2 <aL>  12) intel_compute_runtime/release/agama-devel-551 <aL>               
+ 3) rdma-core/36.3-gcc-10.2.0-l2rnrjy <aL>             8) gcc/10.2.0-gcc-10.2.0-yudlyez <aL>      13) oneapi/eng-compiler/2022.12.30.003(default:default:oneapi) <aL>  
+ 4) libfabric/1.14.0-gcc-10.2.0-hp2bsva <aL>           9) intel_gpu_env/implicit_scaling <aL>     14) nightly-compiler/2023.03.28                                      
+ 5) libpciaccess/0.16-gcc-10.2.0-kluhisj <aL>         10) intel_gpu_env/multi_gpu <aL>            
+
+Key:
+(symbolic-version)  <module-tag>  <aL>=auto-loaded  
