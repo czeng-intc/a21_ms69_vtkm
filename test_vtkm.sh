@@ -3,7 +3,7 @@
 wdir=${1:-"$PWD/current"}
 
 perf_cl=""
-perf_cl="$HOME/base/pti-gpu/bin/onetrace -h -d"
+#perf_cl="$HOME/base/pti-gpu/bin/onetrace -h -d"
 
 perf=`echo ${perf_cl} | awk '{print $1}' | awk -F'/' '{print $NF}'`
 if [ -z ${perf} ]; then
