@@ -1,0 +1,6 @@
+[submodule "src/kokkos"]
+	path = src/kokkos
+	url = https://github.com/czeng-intc/a21_kokkos_src.git
+[submodule "src/vtkm"]
+	path = src/vtkm
+	url = https://github.com/czeng-intc/a21_vtkm_src.git
