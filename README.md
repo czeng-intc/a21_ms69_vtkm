@@ -1,10 +1,14 @@
-# A21 MS69 works for VTK-m
+# VTK-m repo for Intel-ANL MS69
+This is the README file for VTK-m of Intel-ANL MS69.
+
+About VTK-m: https://gitlab.kitware.com/vtk/vtk-m/-/blob/master/README.md
+VTK-m uses Kokkos (https://kokkos.github.io/kokkos-core-wiki/).
 
 ## How to clone
 ```
 git clone --recursive https://github.com/czeng-intc/a21_ms69_vtkm.git
 ```
-Note the `Kokkos` and `VTK-m` source repos are added as submodules in this repo. So the `--recursive` option is needed.
+The `--recursive` option is needed because the `Kokkos` and `VTK-m` source repos are added as submodules.
 
 ## How to build
 First, make sure your desired SDK is loaded. Then simply run the build scripts as follows for AOT compilation:
