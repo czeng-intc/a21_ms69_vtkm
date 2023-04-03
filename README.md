@@ -3,7 +3,10 @@ This is the README file for VTK-m of Intel-ANL MS69.
 
 About VTK-m: https://gitlab.kitware.com/vtk/vtk-m/-/blob/master/README.md
 
-VTK-m uses Kokkos (https://kokkos.github.io/kokkos-core-wiki/).
+VTK-m uses Kokkos. About Kokkos: https://kokkos.github.io/kokkos-core-wiki/
+
+## Purpose:
+This is a "special" repo that solely serves the purpose of archiving the works for A21 MS69.
 
 ## How to clone
 ```
