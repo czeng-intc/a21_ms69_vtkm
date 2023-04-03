@@ -11,6 +11,12 @@ git clone --recursive https://github.com/czeng-intc/a21_ms69_vtkm.git
 ```
 The `--recursive` option is needed because the `Kokkos` and `VTK-m` source repos are added as submodules.
 
+Note the submodules `src/kokkos`, and `src/vtkm` are in `HEAD detached` mode because a submodule is essentially just a pointer to a specific commit of another remote repo. If you have modified the contents of a submodule and want to push the changes, you have to first switch or create the branch to be updated. The following script automates this action.
+```
+./update_submodules.sh
+```
+**Important note:** If you don't plan to commit any changes in the submodules, do not run the above script.
+
 ## How to build
 First, make sure your desired SDK is loaded. Then simply run the build scripts as follows for AOT compilation:
 ```
