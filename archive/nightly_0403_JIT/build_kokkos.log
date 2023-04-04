@@ -1,0 +1,1402 @@
+-- Setting default Kokkos CXX standard to 17
+-- The CXX compiler identification is Clang 17.0.0
+-- Check for working CXX compiler: /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx
+-- Check for working CXX compiler: /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Kokkos version: 4.0.99
+-- The project name is: Kokkos
+-- Using internal gtest for testing
+-- Configured git information in /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/generated/Kokkos_Version_Info.cpp
+-- Using -std=c++17 for C++17 standard as feature
+-- Built-in Execution Spaces:
+--     Device Parallel: Kokkos::Experimental::SYCL
+--     Host Parallel: NoTypeDefined
+--       Host Serial: SERIAL
+-- 
+-- Architectures:
+--  INTEL_GEN
+-- Found TPLLIBDL: /usr/include  
+-- Looking for C++ include oneapi/dpl/execution
+-- Looking for C++ include oneapi/dpl/execution - found
+-- Looking for C++ include oneapi/dpl/algorithm
+-- Looking for C++ include oneapi/dpl/algorithm - found
+-- Performing Test KOKKOS_NO_TBB_CONFLICT
+-- Performing Test KOKKOS_NO_TBB_CONFLICT - Failed
+-- Using internal desul_atomics copy
+-- Kokkos Devices: SERIAL;SYCL, Kokkos Backends: SERIAL;SYCL
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos
+make: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+/usr/bin/cmake -S/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos -B/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make -f CMakeFiles/AlwaysCheckGit.dir/build.make CMakeFiles/AlwaysCheckGit.dir/depend
+make -f core/src/CMakeFiles/kokkoscore.dir/build.make core/src/CMakeFiles/kokkoscore.dir/depend
+make -f simd/src/CMakeFiles/kokkossimd.dir/build.make simd/src/CMakeFiles/kokkossimd.dir/depend
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/AlwaysCheckGit.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src/CMakeFiles/kokkoscore.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/simd/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src/CMakeFiles/kokkossimd.dir/DependInfo.cmake --color=
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/AlwaysCheckGit.dir/DependInfo.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/AlwaysCheckGit.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/AlwaysCheckGit.dir/depend.internal".
+Scanning dependencies of target AlwaysCheckGit
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make -f CMakeFiles/AlwaysCheckGit.dir/build.make CMakeFiles/AlwaysCheckGit.dir/build
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src/CMakeFiles/kokkoscore.dir/DependInfo.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src/CMakeFiles/kokkoscore.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src/CMakeFiles/kokkoscore.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src/CMakeFiles/kokkossimd.dir/DependInfo.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src/CMakeFiles/kokkossimd.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src/CMakeFiles/kokkossimd.dir/depend.internal".
+Scanning dependencies of target kokkossimd
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+/usr/bin/cmake -DRUN_CHECK_GIT_VERSION=1 -DKOKKOS_SOURCE_DIR=/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos -P /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/cmake/build_env_info.cmake
+make -f simd/src/CMakeFiles/kokkossimd.dir/build.make simd/src/CMakeFiles/kokkossimd.dir/build
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[  3%] Building CXX object simd/src/CMakeFiles/kokkossimd.dir/Kokkos_SIMD_dummy.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -Dkokkossimd_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/simd/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -std=c++17 -o CMakeFiles/kokkossimd.dir/Kokkos_SIMD_dummy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/simd/src/Kokkos_SIMD_dummy.cpp
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+Scanning dependencies of target kokkoscore
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make -f core/src/CMakeFiles/kokkoscore.dir/build.make core/src/CMakeFiles/kokkoscore.dir/build
+[  3%] Built target AlwaysCheckGit
+make -f CMakeFiles/impl_git_version.dir/build.make CMakeFiles/impl_git_version.dir/depend
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/impl_git_version.dir/DependInfo.cmake --color=
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -Dkokkossimd_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/simd/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/kokkossimd.dir/Kokkos_SIMD_dummy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/simd/src/Kokkos_SIMD_dummy.cpp"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4295
+	Voluntary context switches: 7
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[  6%] Linking CXX shared library libkokkossimd.so
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/impl_git_version.dir/DependInfo.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/impl_git_version.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles/impl_git_version.dir/depend.internal".
+Scanning dependencies of target impl_git_version
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/kokkossimd.dir/link.txt --verbose=1
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make -f CMakeFiles/impl_git_version.dir/build.make CMakeFiles/impl_git_version.dir/build
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[ 10%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o
+[ 13%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Command_Line_Parsing.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Command_Line_Parsing.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Command_Line_Parsing.cpp
+[ 17%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o
+[ 20%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Core.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Error.cpp
+[ 24%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o
+[ 27%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o
+[ 31%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostBarrier.cpp
+time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG  -shared -Wl,-soname,libkokkossimd.so.4.0 -o libkokkossimd.so.4.0.99 CMakeFiles/kokkossimd.dir/Kokkos_SIMD_dummy.cpp.o 
+[ 34%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o
+[ 37%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostSpace.cpp
+[ 41%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp
+[ 44%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_MemorySpace.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_MemoryPool.cpp
+[ 48%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemorySpace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_MemorySpace.cpp
+[ 51%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Profiling.cpp
+[ 55%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o
+[ 58%] Building CXX object CMakeFiles/impl_git_version.dir/generated/Kokkos_Version_Info.cpp.o
+[ 62%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp
+[ 65%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o
+[ 68%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial.cpp.o
+[ 72%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial_Task.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Spinwait.cpp
+time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -Dimpl_git_version_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/generated  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -std=c++17 -o CMakeFiles/impl_git_version.dir/generated/Kokkos_Version_Info.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/generated/Kokkos_Version_Info.cpp
+[ 75%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Stacktrace.cpp
+[ 79%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Instance.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_hwloc.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/Serial/Kokkos_Serial.cpp
+[ 82%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/__/__/tpls/desul/src/Lock_Array_SYCL.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial_Task.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/Serial/Kokkos_Serial_Task.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL.cpp
+[ 86%] Building CXX object core/src/CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Space.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Instance.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL_Instance.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/__/__/tpls/desul/src/Lock_Array_SYCL.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/tpls/desul/src/Lock_Array_SYCL.cpp
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Space.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL_Space.cpp
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/__/__/tpls/desul/src/Lock_Array_SYCL.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/tpls/desul/src/Lock_Array_SYCL.cpp"
+	User time (seconds): 0.01
+	System time (seconds): 0.03
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 67084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10816
+	Voluntary context switches: 29
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -shared -Wl,-soname,libkokkossimd.so.4.0 -o libkokkossimd.so.4.0.99 CMakeFiles/kokkossimd.dir/Kokkos_SIMD_dummy.cpp.o"
+	User time (seconds): 0.05
+	System time (seconds): 0.02
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 58648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9082
+	Voluntary context switches: 12
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/simd/src && /usr/bin/cmake -E cmake_symlink_library libkokkossimd.so.4.0.99 libkokkossimd.so.4.0 libkokkossimd.so
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[ 86%] Built target kokkossimd
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -Dimpl_git_version_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/generated -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/impl_git_version.dir/generated/Kokkos_Version_Info.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/generated/Kokkos_Version_Info.cpp"
+	User time (seconds): 0.06
+	System time (seconds): 0.03
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 95912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7295
+	Voluntary context switches: 7
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[ 89%] Linking CXX shared library libimpl_git_version.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/impl_git_version.dir/link.txt --verbose=1
+time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG  -shared -Wl,-soname,libimpl_git_version.so -o libimpl_git_version.so CMakeFiles/impl_git_version.dir/generated/Kokkos_Version_Info.cpp.o 
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -shared -Wl,-soname,libimpl_git_version.so -o libimpl_git_version.so CMakeFiles/impl_git_version.dir/generated/Kokkos_Version_Info.cpp.o"
+	User time (seconds): 0.05
+	System time (seconds): 0.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 58104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9071
+	Voluntary context switches: 13
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[ 89%] Built target impl_git_version
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_CPUDiscovery.cpp"
+	User time (seconds): 0.17
+	System time (seconds): 0.03
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 97224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17490
+	Voluntary context switches: 23
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial_Task.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/Serial/Kokkos_Serial_Task.cpp"
+	User time (seconds): 1.75
+	System time (seconds): 0.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 232488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 92727
+	Voluntary context switches: 31
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_MemoryPool.cpp"
+	User time (seconds): 1.82
+	System time (seconds): 0.16
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 232416
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 93140
+	Voluntary context switches: 22
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemorySpace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_MemorySpace.cpp"
+	User time (seconds): 1.85
+	System time (seconds): 0.14
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 233528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 93116
+	Voluntary context switches: 22
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Error.cpp"
+	User time (seconds): 1.83
+	System time (seconds): 0.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 233436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 94341
+	Voluntary context switches: 30
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 160
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Stacktrace.cpp"
+	User time (seconds): 1.91
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 233984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 93499
+	Voluntary context switches: 27
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostBarrier.cpp"
+	User time (seconds): 1.99
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 250812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 102345
+	Voluntary context switches: 28
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Spinwait.cpp"
+	User time (seconds): 2.11
+	System time (seconds): 0.15
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 251604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 102072
+	Voluntary context switches: 28
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostThreadTeam.cpp"
+	User time (seconds): 2.10
+	System time (seconds): 0.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 254124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103075
+	Voluntary context switches: 22
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostSpace.cpp"
+	User time (seconds): 2.11
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 254984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103350
+	Voluntary context switches: 22
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_ExecPolicy.cpp"
+	User time (seconds): 2.91
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 307200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131439
+	Voluntary context switches: 21
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_hwloc.cpp"
+	User time (seconds): 2.92
+	System time (seconds): 0.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131504
+	Voluntary context switches: 23
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 248
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_SharedAlloc.cpp"
+	User time (seconds): 2.92
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131990
+	Voluntary context switches: 22
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 240
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Space.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL_Space.cpp"
+	User time (seconds): 2.96
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 260168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 108231
+	Voluntary context switches: 29
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_HostSpace_deepcopy.cpp"
+	User time (seconds): 2.94
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308852
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 132098
+	Voluntary context switches: 23
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 216
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/Serial/Kokkos_Serial.cpp"
+	User time (seconds): 2.99
+	System time (seconds): 0.21
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 311608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133641
+	Voluntary context switches: 23
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL.cpp"
+	User time (seconds): 3.21
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 316552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134938
+	Voluntary context switches: 25
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 416
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Instance.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/SYCL/Kokkos_SYCL_Instance.cpp"
+	User time (seconds): 4.24
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 312280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 137927
+	Voluntary context switches: 37
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Command_Line_Parsing.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Command_Line_Parsing.cpp"
+	User time (seconds): 4.99
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 116881
+	Voluntary context switches: 23
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1280
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Profiling.cpp"
+	User time (seconds): 5.21
+	System time (seconds): 0.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 292576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 128013
+	Voluntary context switches: 21
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1408
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscore_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/impl/Kokkos_Core.cpp"
+	User time (seconds): 6.47
+	System time (seconds): 0.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 350500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 160911
+	Voluntary context switches: 22
+	Involuntary context switches: 31
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1704
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[ 93%] Linking CXX shared library libkokkoscore.so
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/kokkoscore.dir/link.txt --verbose=1
+time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -DKOKKOS_DEPENDENCE -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-targets=spir64 -shared -Wl,-soname,libkokkoscore.so.4.0 -o libkokkoscore.so.4.0.99 CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Command_Line_Parsing.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemorySpace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial.cpp.o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial_Task.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Instance.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Space.cpp.o CMakeFiles/kokkoscore.dir/__/__/tpls/desul/src/Lock_Array_SYCL.cpp.o  -ldl 
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -DKOKKOS_DEPENDENCE -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-targets=spir64 -shared -Wl,-soname,libkokkoscore.so.4.0 -o libkokkoscore.so.4.0.99 CMakeFiles/kokkoscore.dir/impl/Kokkos_CPUDiscovery.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Command_Line_Parsing.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Core.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Error.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_ExecPolicy.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostBarrier.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostSpace_deepcopy.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_HostThreadTeam.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemoryPool.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_MemorySpace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Profiling.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_SharedAlloc.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Spinwait.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_Stacktrace.cpp.o CMakeFiles/kokkoscore.dir/impl/Kokkos_hwloc.cpp.o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial.cpp.o CMakeFiles/kokkoscore.dir/Serial/Kokkos_Serial_Task.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Instance.cpp.o CMakeFiles/kokkoscore.dir/SYCL/Kokkos_SYCL_Space.cpp.o CMakeFiles/kokkoscore.dir/__/__/tpls/desul/src/Lock_Array_SYCL.cpp.o -ldl"
+	User time (seconds): 0.19
+	System time (seconds): 0.10
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 59220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43964
+	Voluntary context switches: 312
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 10096
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src && /usr/bin/cmake -E cmake_symlink_library libkokkoscore.so.4.0.99 libkokkoscore.so.4.0 libkokkoscore.so
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[ 93%] Built target kokkoscore
+make -f containers/src/CMakeFiles/kokkoscontainers.dir/build.make containers/src/CMakeFiles/kokkoscontainers.dir/depend
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/containers/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/DependInfo.cmake --color=
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/DependInfo.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/depend.internal".
+Dependee "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src/CMakeFiles/kokkoscontainers.dir/depend.internal".
+Scanning dependencies of target kokkoscontainers
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make -f containers/src/CMakeFiles/kokkoscontainers.dir/build.make containers/src/CMakeFiles/kokkoscontainers.dir/build
+make[2]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[ 96%] Building CXX object containers/src/CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src && time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx  -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscontainers_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/containers/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include  -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC   -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -DKOKKOS_DEPENDENCE -DPSTL_USE_PARALLEL_POLICIES=0 -D_GLIBCXX_USE_TBB_PAR_BACKEND=0 -Dkokkoscontainers_EXPORTS -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/containers/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos -I/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src -I/localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/core/src/../../tpls/desul/include -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -fPIC -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-unnamed-lambda -fsycl-targets=spir64 -std=c++17 -o CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o -c /localdisk/chongzen/ms69/a21_ms69_vtkm/src/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp"
+	User time (seconds): 2.74
+	System time (seconds): 0.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 311752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133302
+	Voluntary context switches: 21
+	Involuntary context switches: 34
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[100%] Linking CXX shared library libkokkoscontainers.so
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src && /usr/bin/cmake -E cmake_link_script CMakeFiles/kokkoscontainers.dir/link.txt --verbose=1
+time -v /exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -DKOKKOS_DEPENDENCE -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-targets=spir64 -shared -Wl,-soname,libkokkoscontainers.so.4.0 -o libkokkoscontainers.so.4.0.99 CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o  -Wl,-rpath,/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src: ../../core/src/libkokkoscore.so.4.0.99 -ldl 
+	Command being timed: "/exaperf/nightly/compiler/2023.04.03/linux/bin/icpx -fPIC -fPIC -fp-model=precise -Wno-unused-command-line-argument -Wno-deprecated-declarations -fsycl-device-code-split=per_kernel -fsycl-max-parallel-link-jobs=32 -O3 -DNDEBUG -DKOKKOS_DEPENDENCE -fsycl -fno-sycl-id-queries-fit-in-int -fsycl-dead-args-optimization -fsycl-targets=spir64 -shared -Wl,-soname,libkokkoscontainers.so.4.0 -o libkokkoscontainers.so.4.0.99 CMakeFiles/kokkoscontainers.dir/impl/Kokkos_UnorderedMap_impl.cpp.o -Wl,-rpath,/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/core/src: ../../core/src/libkokkoscore.so.4.0.99 -ldl"
+	User time (seconds): 0.12
+	System time (seconds): 0.07
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 58672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26984
+	Voluntary context switches: 129
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 4368
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+cd /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/containers/src && /usr/bin/cmake -E cmake_symlink_library libkokkoscontainers.so.4.0.99 libkokkoscontainers.so.4.0 libkokkoscontainers.so
+make[2]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+[100%] Built target kokkoscontainers
+make[1]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+/usr/bin/cmake -E cmake_progress_start /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos/CMakeFiles 0
+make -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+make[1]: Nothing to be done for 'preinstall'.
+make[1]: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Profiling_ProfileSection.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HPX
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HPX/Kokkos_HPX_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HPX/Kokkos_HPX_Task.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HPX/Kokkos_HPX_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HPX/Kokkos_HPX.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Parallel.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_AcquireUniqueTokenImpl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MasterLock.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Atomic.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Timer.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Pair.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Array.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Complex.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Core_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_ReductionIdentity.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosExp_InterOp.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View/MDSpan
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View/MDSpan/Kokkos_MDSpan_Header.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View/MDSpan/Kokkos_MDSpan_Extents.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View/Hooks
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/View/Hooks/Kokkos_ViewHooks.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelScan_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ScheduleType.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_Macros.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_DeepCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelFor_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACCSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelFor_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_FunctorAdapter.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_Traits.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelReduce_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelReduce_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelReduce_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_ParallelFor_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_SharedAllocationRecord.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenACC/Kokkos_OpenACC_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_Parallel_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_Task.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_Parallel_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_Parallel_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Serial/Kokkos_Serial_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Parallel_Reduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosExp_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_CopyViews.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_DetectionIdiom.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MathematicalConstants.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_ExecPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Atomics_Desul_Volatile_Wrapper.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_ThreadsTeam.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_Parallel_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_ThreadsExec.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_Parallel_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads_Parallel_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Threads/Kokkos_Threads.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_BlockSize_Deduction.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Half_Impl_Type.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_ReduceScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Abort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Half_Conversion.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Parallel_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Parallel_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Shuffle_Reduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Vectorization.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_KernelLaunch.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Parallel_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Space.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Error.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_DeepCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_SharedAllocationRecord.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/HIP/Kokkos_HIP_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Concepts.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Half.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelReduce_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Parallel.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Parallel_Common.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelScan_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Abort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Reducer.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Parallel_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTargetSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelReduce_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Task.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelScan_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelFor_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_ParallelFor_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMPTarget/Kokkos_OpenMPTarget_Error.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Extents.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_NumericTraits.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MathematicalFunctions.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_BitManipulation.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MinMaxClamp.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Crs.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_hwloc.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Graph.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Vectorization.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_HostSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_LogicalSpaces.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Graph_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_GraphNode.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Core.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_Task.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_Parallel.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/OpenMP/Kokkos_OpenMP_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_ScratchSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_HBWSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_HBWSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_THREADS.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_HPX.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_SERIAL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_OPENACC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_OPENMPTARGET.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_OPENMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/decl/Kokkos_Declare_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MemoryTraits.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Future.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_TaskScheduler_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_View.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_AnonymousSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Abort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Parallel_Reduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Space.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Half_Impl_Type.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Parallel_Scan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Half_Conversion.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_DeepCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Parallel_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/SYCL/Kokkos_SYCL_Parallel_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Atomics_Desul_Config.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_SharedAlloc_timpl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Profiling_C_Interface.h
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewTracker.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_FunctorAnalysis.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Default_GraphNode_Impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_LIFO.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_CPUDiscovery.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_MultipleTaskQueue.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_SingleTaskQueue.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TeamMDPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_HostThreadTeam.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Utilities.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueueMultiple.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_AnalyzePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_HostBarrier.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_InitializationSettings.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Traits.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Profiling_Interface.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_StringManipulation.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Atomic_View.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ConcurrentBitset.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewUniformType.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_EBO.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Memory_Fence.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_GraphImpl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_HostSharedPtr.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/KokkosExp_ViewMapping.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_HostSpace_deepcopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ParseCommandLineArgumentsAndEnvironmentVariables.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Volatile_Load.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ClockTic.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Tools_Generic.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewMapping.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Default_GraphNodeKernel.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_MemorySpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_DeviceManagement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskPolicyData.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_MemoryPoolAllocator.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Default_Graph_Impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewCtor.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskTeamMember.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueueMemoryManager.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Stacktrace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Profiling.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewArray.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_BitOps.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Tools.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Error.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueueMultiple_impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueue.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskBase.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_GraphImpl_Utilities.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_QuadPrecisionMath.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_GraphNodeImpl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Combined_Reducer.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/KokkosExp_IterateTileGPU.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Default_Graph_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskResult.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_OptionalRef.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueue_impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_FixedBufferMemoryPool.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_LinkedListNode.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ViewLayoutTiled.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Command_Line_Parsing.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Profiling_DeviceInfo.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskNode.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Spinwait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ChaseLev.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_GraphImpl_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_TaskQueueCommon.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_VLAEmulation.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_ExecSpaceManager.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/KokkosExp_Host_IterateTile.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_NvidiaGpuArchitectures.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_SharedAlloc.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_GraphNodeCustomization.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_SimpleTaskScheduler.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_PointerOwnership.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MathematicalSpecialFunctions.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_MemoryPool.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Layout.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Rank.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Atomics_Desul_Wrapper.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_ExecutionSpaceTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_Traits_fwd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_WorkTagTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_PolicyTraitMatcher.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_OccupancyControlTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_ScheduleTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_IndexTypeTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_GraphKernelTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_PolicyTraitAdaptor.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_WorkItemPropertyTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_IterationPatternTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/traits/Kokkos_LaunchBoundsTrait.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Profiling_ScopedRegion.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Macros.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/setup
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/setup/Kokkos_Setup_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/setup/Kokkos_Setup_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/setup/Kokkos_Setup_Cuda.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Task.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_WorkGraphPolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_abort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_BlockSize_Deduction.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Half_Impl_Type.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Parallel_Team.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_MDRangePolicy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Parallel_MDRange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Graph_Impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_View.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_UniqueToken.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Error.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Instance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_ReduceScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_GraphNodeKernel.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Parallel_Range.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_KernelLaunch.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_GraphNode_Impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Half_Conversion.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_CudaSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Cuda/Kokkos_Cuda_Vectorization.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_TaskScheduler.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_THREADS.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_HBWSpace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_SERIAL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_OPENACC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_OPENMPTARGET.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_OPENMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/fwd/Kokkos_Fwd_HPX.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Tuners.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/openmp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/openmp/OpenMP_40.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/openmp/OpenMP_40_op.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Operator_Function_Objects.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Adapt_CXX.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_MSVC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Adapt_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_OpenMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_OpenMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_GCC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Array_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Generic.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Adapt_GCC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_ScopeCaller.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Array.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Array_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_exchange.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_op.inc_generic
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_op.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/CUDA_asm.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_fetch_op.inc_predicate
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_fetch_op.inc_generic
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_op.inc_isglobal
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_exchange_op.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/CUDA_asm_exchange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_op.inc_forceglobal
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_op.inc_predicate
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_fetch_op.inc_forceglobal
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_fetch_op.inc_isglobal
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_exchange_memorder.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_memorder.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm_atomic_fetch_op.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/cuda/cuda_cc7_asm.inc
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Common.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Array_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_MSVC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Atomic_Ref.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Macros.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_ScopeCaller.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_Generic.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Free_Fetch_Op.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_CUDA.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_ScopeCaller.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_OpenMP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_GCC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op_Unimplemented.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Compare_Exchange_SYCL.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Thread_Fence_HIP.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Lock_Based_Fetch_Op_Host.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Fetch_Op_GCC.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics.hpp
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/desul/atomics/Config.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so.4.0.99
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so.4.0
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so.4.0.99
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so.4.0
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscore.so
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_UnorderedMap.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_ErrorReporter.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_DynamicView.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Bitset.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_StaticCrsGraph.hpp
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Bitset_impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_StaticCrsGraph_factory.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_Functional_impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/impl/Kokkos_UnorderedMap_impl.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_ScatterView.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Vector.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_DynRankView.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_DualView.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_OffsetView.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Functional.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so.4.0.99
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so.4.0
+-- Set runtime path of "/localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so.4.0.99" to ""
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so.4.0.99
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so.4.0
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkoscontainers.so
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_NestedSort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Sort.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_Random.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_StdAlgorithms.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_MaxElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_TransformReduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_TransformExclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_RemoveIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_InclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ReplaceIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_AdjacentFind.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ReplaceCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_FindFirstOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ReplaceCopyIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_BeginEnd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_CopyBackward.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_AllOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Distance.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_RotateCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_MoveBackward.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_FindEnd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Transform.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_PartitionCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_CopyIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Remove.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_GenerateN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_IsSortedUntil.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_IterSwap.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ShiftLeft.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_RemoveCopyIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_SearchN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Mismatch.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Copy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_AdjacentDifference.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Find.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Equal.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_TransformInclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_FindIfNot.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_AnyOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_MinMaxElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ForEachN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_MinElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Swap.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_FindIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Reduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_SwapRanges.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Search.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Unique.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_IsPartitioned.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_LexicographicalCompare.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ShiftRight.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_IsSorted.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_PartitionPoint.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_RemoveCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_IdentityReferenceUnaryFunctor.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_TransformReduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_TransformExclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_HelperPredicates.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_CountCountIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_InclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ReplaceIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_AdjacentFind.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ReplaceCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_FindFirstOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ReplaceCopyIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_CopyBackward.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_RotateCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_MoveBackward.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ValueWrapperForNoNeutralElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_FindEnd.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Transform.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_PartitionCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_CopyIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_IsSortedUntil.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_GenerateGenerateN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_CopyCopyN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_FindIfOrNot.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ShiftLeft.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_SearchN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Mismatch.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ReducerWithArbitraryJoinerNoNeutralElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_AdjacentDifference.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_RemoveAllVariants.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Equal.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_TransformInclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Reduce.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_SwapRanges.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_FillFillN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_MinMaxMinmaxElement.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Search.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Unique.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Constraints.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_IsPartitioned.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_LexicographicalCompare.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ShiftRight.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_IsSorted.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_AllOfAnyOfNoneOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_PartitionPoint.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Move.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Reverse.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Rotate.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ForEachForEachN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_RandomAccessIterator.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_Replace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ReverseCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_UniqueCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/impl/Kokkos_ExclusiveScan.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_FillN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Move.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_NoneOf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Reverse.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Count.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_CountIf.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Generate.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Rotate.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ForEach.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Replace.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_Fill.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_CopyN.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ReverseCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_UniqueCopy.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/std_algorithms/Kokkos_ExclusiveScan.hpp
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD_NEON.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD_Scalar.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD_AVX2.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD_AVX512.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/Kokkos_SIMD_Common.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so.4.0.99
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so.4.0
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so.4.0.99
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so.4.0
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/libkokkossimd.so
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/cmake/Kokkos/KokkosConfig.cmake
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/cmake/Kokkos/KokkosConfigCommon.cmake
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/cmake/Kokkos/KokkosConfigVersion.cmake
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/cmake/Kokkos/KokkosTargets.cmake
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/lib64/cmake/Kokkos/KokkosTargets-release.cmake
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_config.h
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/bin/nvcc_wrapper
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/bin/hpcbind
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/bin/kokkos_launch_compiler
+-- Up-to-date: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_config.h
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_Config_FwdBackend.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_Config_SetupBackend.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_Config_DeclareBackend.hpp
+-- Installing: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/install/kokkos/include/KokkosCore_Config_PostInclude.hpp
+make: Leaving directory '/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/kokkos'
+
+real	0m10.384s
+user	1m3.037s
+sys	0m5.147s

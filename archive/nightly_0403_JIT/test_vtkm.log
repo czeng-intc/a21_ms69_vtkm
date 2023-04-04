@@ -1,0 +1,187 @@
+Test project /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/vtkm
+    Start 137: RenderTestContourFilter
+1/8 Test #137: RenderTestContourFilter ..........   Passed   10.17 sec
+    Start 138: RenderTestSliceFilter
+2/8 Test #138: RenderTestSliceFilter ............   Passed   10.95 sec
+    Start 169: RenderTestPointTransform
+3/8 Test #169: RenderTestPointTransform .........   Passed    3.73 sec
+    Start 185: RenderTestSplitSharpEdges
+4/8 Test #185: RenderTestSplitSharpEdges ........   Passed    5.25 sec
+    Start 191: RenderTestAmrArrays
+5/8 Test #191: RenderTestAmrArrays ..............   Passed   15.02 sec
+    Start 204: RenderTestSurfaceNormals
+6/8 Test #204: RenderTestSurfaceNormals .........   Passed    4.58 sec
+    Start 226: UnitTestScalarRenderer
+7/8 Test #226: UnitTestScalarRenderer ...........   Passed    3.70 sec
+    Start 232: RenderTestPerlinNoise
+8/8 Test #232: RenderTestPerlinNoise ............   Passed    6.57 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Total Test time (real) =  59.99 sec
+Test project /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/vtkm
+    Start 6: UnitTestKokkosDeviceAdapter
+1/1 Test #6: UnitTestKokkosDeviceAdapter ......***Failed    9.30 sec
+[0m[2mdate       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+[0m[2m2023-04-04 15:47:33.836 (   0.008s) [main thread     ]             loguru.cpp:593   Info| [0marguments: UnitTestKokkosDeviceAdapter --vtkm-device=kokkos --vtkm-log-level INFO --vtkm-data-dir=/localdisk/chongzen/ms69/a21_ms69_vtkm/src/vtkm/data/data --vtkm-baseline-dir=/localdisk/chongzen/ms69/a21_ms69_vtkm/src/vtkm/data/baseline --vtkm-write-dir=/localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/vtkm[0m
+[0m[2m2023-04-04 15:47:33.837 (   0.008s) [main thread     ]             loguru.cpp:596   Info| [0mCurrent dir: /localdisk/chongzen/ms69/a21_ms69_vtkm/current/build/vtkm/vtkm/cont/kokkos/testing[0m
+[0m[2m2023-04-04 15:47:33.837 (   0.008s) [main thread     ]             loguru.cpp:598   Info| [0mstderr verbosity: 0[0m
+[0m[2m2023-04-04 15:47:33.837 (   0.008s) [main thread     ]             loguru.cpp:599   Info| [0m-----------------------------------[0m
+Doing DeviceAdapter tests
+-------------------------------------------
+Testing Memory Transfer
+-------------------------------------------
+Testing Out of Memory
+Do array allocation that should fail.
+-------------------------------------------
+Testing Timer
+Timer started. Sleeping...
+Woke up. Check time.
+Elapsed time: 0.500086
+-------------------------------------------
+Testing single value Scheduling with vtkm::Id
+-------------------------------------------
+Testing Schedule with vtkm::Id
+-------------------------------------------
+Testing Schedule with a vary large Id value
+-------------------------------------------
+Testing Schedule with vtkm::Id3
+Allocating execution array
+-------------------------------------------
+Testing Schedule for overlap
+Allocating and initializing memory
+Running Overlap kernel.
+-------------------------------------------
+Testing Schedule for overlap with vtkm::Id3
+Allocating and initializing memory
+Running Overlap kernel.
+-------------------------------------------
+Testing Exceptions in Execution Environment
+Testing if execution errors are eventually propagated to the host without explicit synchronization
+Got expected error: "Got an error." after 0 invocations of other kernel
+
+-------------------------------------------
+Testing Reduce
+  Reduce with initial value of 0.
+  Reduce with initial value.
+  Inclusive scan to check
+  Reduce with 1 value.
+  Reduce with 0 values.
+-------------------------------------------
+Testing Reduce with comparison object 
+  Reduce vtkm::Id array with vtkm::MinAndMax to compute range.
+  Reduce vtkm::Id array with custom functor that returns vtkm::Pair<>.
+  Reduce bool array with vtkm::LogicalAnd to see if all values are true.
+  Reduce with custom value type and custom comparison operator.
+-------------------------------------------
+Testing Reduce with ArrayHandleZip
+-------------------------------------------
+Testing Reduce with ArrayHandlePermutation
+sum: 125
+-------------------------------------------
+Testing Reduce By Key
+-------------------------------------------
+Testing Reduce By Key with Fancy Arrays
+[0m[33m2023-04-04 15:47:37.104 (   3.275s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+[0m[33m2023-04-04 15:47:37.104 (   3.275s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+-------------------------------------------
+Testing Exclusive Scan
+  size 1
+-------------------------------------------
+Testing Exclusive Scan with multiplication operator
+-------------------------------------------
+Testing Exclusive Scan with a vtkm::Vec
+-------------------------------------------
+Testing Extended Scan
+-------------------------------------------
+Testing Extended Scan with multiplication operator
+-------------------------------------------
+Testing Extended Scan with a vtkm::Vec
+-------------------------------------------
+Testing Inclusive Scan
+  size 100
+  size 1
+  size 0
+-------------------------------------------
+Testing Inclusive Scan with multiplication operator
+-------------------------------------------
+Testing Inclusive Scan with a vtkm::Vec
+Sum that was returned [103.1,104.1,105.1]
+-------------------------------------------
+Testing Inclusive Scan with comparison object 
+-------------------------------------------
+Testing Scan Inclusive By Key with 1 elements
+-------------------------------------------
+Testing Scan Exclusive By Key with 2 elements
+-------------------------------------------
+Testing Scan Inclusive By Key with 100 elements
+-------------------------------------------
+Testing Scan Inclusive By Key
+-------------------------------------------
+Testing Scan Inclusive By Key In Place
+-------------------------------------------
+Testing Scan Inclusive By Key In Place with a Fancy Array
+[0m[33m2023-04-04 15:47:38.484 (   4.656s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+-------------------------------------------
+Testing Scan Exclusive By Key with 1 elements
+-------------------------------------------
+Testing Scan Exclusive By Key with 2 elements
+-------------------------------------------
+Testing Scan Exclusive By Key with 100 elements
+-------------------------------------------
+Testing Scan Exclusive By Key
+-------------------------------------------
+Testing Scan Inclusive By Key In Place
+-------------------------------------------
+Testing Scan Inclusive By Key In Place with a Fancy Array
+[0m[33m2023-04-04 15:47:38.592 (   4.763s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+-------------------------------------------------
+Sort
+-------------------------------------------------
+Sort with comparison object
+-------------------------------------------------
+Sort of a ArrayHandleZip
+-------------------------------------------------
+Sort of a ArrayHandlePermutation
+-------------------------------------------------
+Sort by keys
+-------------------------------------------------
+Testing LowerBounds with comparison object
+-------------------------------------------------
+Testing UpperBounds with comparison object
+-------------------------------------------------
+Testing Unique with comparison object
+-------------------------------------------------
+Testing Sort, Unique, LowerBounds and UpperBounds
+Testing Sort/Unique/LowerBounds/UpperBounds with random values and fancy array
+[0m[33m2023-04-04 15:47:41.286 (   7.457s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+[0m[33m2023-04-04 15:47:41.540 (   7.712s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+[0m[33m2023-04-04 15:47:41.598 (   7.769s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+-------------------------------------------
+Testing CopyIf
+  CopyIf on fancy arrays.
+[0m[33m2023-04-04 15:47:41.745 (   7.916s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+[0m[33m2023-04-04 15:47:41.745 (   7.916s) [main thread     ]      ArrayHandleCast.h:215   WARN| ArrayHandleCast: Casting ComponentType of long long to float reduces precision.[0m
+  CopyIf on zero size arrays.
+-------------------------------------------------
+Testing Copy to same array type
+-------------------------------------------------
+Testing Copy to a different array type
+-------------------------------------------
+Testing Atomic Add with vtkm::Int32
+Error at /localdisk/chongzen/ms69/a21_ms69_vtkm/src/vtkm/vtkm/cont/testing/TestingDeviceAdapter.h:2537:TestAtomicArray
+	Did not get expected value: Atomic add Int32 (expected == actual)
+[0m[2m2023-04-04 15:47:42.986 (   9.157s) [main thread     ]             loguru.cpp:473   Info| [0matexit[0m
+
+
+0% tests passed, 1 tests failed out of 1
+
+Label Time Summary:
+KOKKOS    =   9.30 sec*proc (1 test)
+
+Total Test time (real) =   9.31 sec
+
+The following tests FAILED:
+	  6 - UnitTestKokkosDeviceAdapter (Failed)
+Errors while running CTest
+Total wallclock time: 70 s
